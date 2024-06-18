@@ -13,6 +13,8 @@ public class CubeMover : MonoBehaviour
     private Vector2 rightInput;
     private Vector2 leftInput;
 
+    public float speed = 0f;
+
     private Vector3 _initPosA;
     private Vector3 _initPosB;
     private Quaternion _initRotA;
@@ -61,7 +63,7 @@ public class CubeMover : MonoBehaviour
         }
         if (input.y > 0)
         {
-            float step = input.y * Time.deltaTime; // Adjust the speed factor as needed
+            float step = input.y * Time.deltaTime * speed; // Adjust the speed factor as needed
             fromCube.transform.position = Vector3.MoveTowards(fromCube.transform.position, toCube.transform.position, step);
         }
     }

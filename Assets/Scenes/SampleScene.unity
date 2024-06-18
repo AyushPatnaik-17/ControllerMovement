@@ -284,7 +284,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 620200963}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.37, y: 1.6, z: 0}
+  m_LocalPosition: {x: -6.12, y: 1.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -845,7 +845,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1113190118}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.78, y: 1.6, z: 0}
+  m_LocalPosition: {x: 6.54, y: 1.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1117,6 +1117,7 @@ MonoBehaviour:
   cubeB: {fileID: 1113190118}
   rightJoystick: {fileID: 8662240383260835461, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   leftJoystick: {fileID: 6554817518199395465, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  speed: 3
   ToAppear: {fileID: 1355385503}
 --- !u!4 &1888835523 stripped
 Transform:
